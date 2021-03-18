@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepOrange,
       ),
+      debugShowCheckedModeBanner: false,
       home: MyHomePage(title: 'Todos'),
     );
   }

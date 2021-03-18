@@ -26,7 +26,7 @@ class Todo {
   }
 
   set description(String newDescription) {
-    if (newDescription.length <= 255) description = newDescription;
+    if (newDescription.length <= 255) _description = newDescription;
   }
 
   set priority (int newPriority) {
